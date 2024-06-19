@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circo Explorer - Accueil</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .link-box {
+            background-color: #e8f0fe;
+            border: 1px solid #d1e3fe;
+            padding: 15px;
+            margin: 10px 0;
+            text-align: center;
+        }
+        .link-box a {
+            color: #1a73e8;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .link-box a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Circo Explorer</h1>
+        <p>Découvrez différentes cartes pour analyser chacune des circonscriptions</p>
+    </header>
+    <div class="container">
+        <h2>Les cartes</h2>
+        <nav>
+            <a href="docs/population_electeurs.kgl.html">Population & Electeurs</a>
+            <a href="#page2">Page 2</a>
+            <a href="#page3">Page 3</a>
+        </nav>
+        <div class="link-box">
+            <a id="population_electeurs" href="docs/population_electeurs.kgl.html">Population & Electeurs</a>
+        </div>
+        <!-- <div class="link-box">
+            <a id="page2" href="docs/page2.html">Accéder à la Page 2</a>
+        </div>
+        <div class="link-box">
+            <a id="page3" href="docs/page3.html">Accéder à la Page 3</a>
+        </div> -->
+    </div>
+</body>
+</html>
